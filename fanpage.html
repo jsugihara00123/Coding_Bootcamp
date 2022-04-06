@@ -1,0 +1,156 @@
+<!--
+  Requirements for assignment:
+
+  1. Open VS Code, create a new file, and save it as fanpage.html. It's important to include the .html extension so that VS Code knows what type of file it is and how to read it.
+
+  2. Create the structure for your page. Reference the panda website you just created. Be sure to include the !DOCTYPE declaration and the <html>, <head>, and <body> tags where appropriate.
+
+  3.Add content to your page. Your page can be about whatever musician or band you want, but it must include the following:
+
+    a. Proper page structure:
+
+      - !DOCTYPE declaration
+
+      - <html>, <head>, and <body> tags
+
+      - A <title> for the page
+
+    b. At least one image (with an alt attribute)
+
+    c. A link to another website
+
+    d. An ordered or an unordered list (favorite songs, albums, band members, etc.)
+
+    e. A bio section with <p> tags for formatting
+
+    f. Use of <h1> and <h2> tags for headings
+
+    g. A video of the musician or band singing or playing a song
+
+    h. Proper indentation
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>My Coldplay Fanpage!</title>
+
+    <link 
+      type="image/png"
+      sizes="16x16"
+      rel="icon"
+      href="https://img.icons8.com/flat-round/64/000000/rubber-duck--v1.png"
+    >
+  </head>
+ 
+  <style type="text/css">
+    table {
+      border: 1px solid black; 
+      text-align: center
+    }
+  </style>
+
+  <body>
+    <h1>My Coldplay Fanpage!</h1>
+      
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/3/34/ColdplayBBC071221_%2853_of_53%29_%2851740659597%29.jpg"
+      width="600"
+      alt="Picture of the band Coldplay"
+    />
+
+    <h2>Bio: A little about Coldplay</h2>
+
+    <p>
+      They are a British rock band that formed in London in 1996. The band only consists of 5 individuals listed below:
+    </p>
+
+    <ul>
+      <li>Main vocalistand pianist - Chris Martin</li>
+      <li>Guitarist - Johny Buckland</li>
+      <li>Bassist - Guy Berryman</li>
+      <li>Drummer - Will Champion</li>
+      <li>Creative Director - Phil Harvey</li>
+    </ul>
+
+    <p>
+      The band members original met at University College London. They started playing music together between 1996 and 1998. The bands first or original name was Pectoralz and then Starfish.
+    </p>
+
+    <p>
+      <a 
+        href="https://en.wikipedia.org/wiki/Coldplay"
+        target="_blank">
+        Here
+      </a>
+        
+      is their Wikipedia page if you want to learn more!
+    </p>
+        
+    <h2>My Favorite Songs</h2>
+
+    <ul>
+      <li>Viva La Vida</li>
+      <li>The Scientist</li>
+      <li>Fix You</li>
+      <li>Shiver</li>
+      <li>Clocks</li>
+      <li>Adventure of a Liftime</li>
+    </ul>
+
+    <br>
+
+    <table>
+      <tr>
+        <th></th>
+        <th scope="col">Song Name</th>
+      </tr>
+
+      <tr>
+        <td scope="row">#1</td>
+        <td>Viva La Vida</td>
+      </tr>
+
+      <tr>        
+        <td scope="row">#2</td>
+        <td>The Scientist</td>
+      </tr>
+
+      <tr>        
+        <td scope="row">#3</td>
+        <td>Fix You</td>
+      </tr>
+
+      <tr>        
+        <td scope="row">#4</td>
+        <td>Shiver</td>
+      </tr>
+
+      <tr>        
+        <td scope="row">#5</td>
+        <td>Clocks</td>
+      </tr>
+      
+      <tr>        
+        <td scope="row">#6</td>
+        <td>Adventure of a Lifetime</td>
+      </tr>
+    </table>
+
+    <br>
+
+    <br>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/yaOPMLfitMc"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </body>
+</html>
